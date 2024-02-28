@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Example of an form</title>
+        <meta charset="UFT-8">
+        <meta name="keywords" content="HTML Form,html registration page">
+        <meta name="author" content="Anshu Raj">
+        <meta name="robots" content="index,nofollow">
+        <script>
+            alert("Welcome to this registration page,I am Anshu Raj.")
+        </script>
+    </head>
+    <body>
+        <marquee>🙏ANSHU GUPTA KING OFFICIAL || THANK YOU FOR VISITING MY WEBSITE🙏</marquee>
+        <h1>Registration Form</h1>
+            <form autocomplete="on" action="agk801104@gmail.com" method="post"> 
+                <div style="display:flex; gap:15px;">
+                    <label for="First name">First name</label>
+                    <input type="text" placeholder="Enter your first name" name="First name" required>
+                    <label for="Last name">last name</label>
+                    <input type="text" placeholder="Enter your last name" name="Last name" required>
+               </div>
+               <br>  
+               <div>
+                    <label for="Upload a profile picture">Upload a profile picture</label>
+                    <input type="file" name="upload a Profile picture" value="upload a file" required accept="image/*">
+                </div>
+                <br>
+                <div>
+                    <label for="D.O.B">Date of Birth</label>
+                    <input type="date" id="D.O.B." required>
+                </div>
+                <br>
+                <div>
+                    <label for="Email">Email</label>
+                    <input type="email" required placeholder="user@example.com" name="Email" required>
+                    <input type="button"  name="Email" value="✉️" required>
+                </div><br>
+                <div>
+                    <label for="Telephone">Telephone</label>
+                    <input type="tel" required placeholder="Enter your phone number" name="Telephone" required>
+                    <input type="button" name="Telephone" value="☎️" required>
+                </div>
+                <br>
+                <div>
+                    <label for="User_id">User Id</label>
+                    <input type="text" name="User_id" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Password">Password</label>
+                    <input type="password" name="Password" required>
+                </div>
+                <br>
+                <div>
+                    <fieldset>
+                        <legend>Gender</legend>
+                            <input type="radio" name="gender" value="male" required>Male
+                            <input type="radio" name="gender" value="female" required>female
+                            <input type="radio" name="gender" value="female" required>other
+                    </fieldset>
+                </div>
+                <br>
+                <div>
+                    <label for="Caste">Select your Caste</label>
+                        <select name="Caste" id="Caste" required>
+                            <option value="OBC">OBC</option>
+                            <option value="BC">BC</option>
+                            <option value="SC">SC</option>
+                            <option value="ST">ST</option>
+                            <option value="Gen">General</option>
+                        </select>
+                </div>
+                <br>
+                <div>
+                    <fieldset>
+                        <p>Select the qualifications you have completed.</p>
+                        <fieldset style="display:flex; gap:15px;" >
+                            <legend>Qualifications</legend>
+                                <label for="Matric"><input type="checkbox" name="Matric">Matriculation</label>
+                                <label for="Inter"><input type="checkbox" name="Inter" >Intermediate</label>
+                                <label for="UG"><input type="checkbox" name="UG">Under Graduation</label>
+                                <label for="PG"><input type="checkbox" name="PG">Post Graduation</label>
+                                <label for="none of these"><input type="checkbox" name="none of these">None of these</label>
+                                <label for="pursuing"><input type="text" name="pursuing" placeholder="Write pursuing course">Pursuing Qualification</label>
+                        </fieldset>
+                    </fieldset>
+                </div>
+                <br>
+                <div style="display:flex; gap:10px;">
+                    <label for="Your biography">Bio</label>
+                    <textarea name="Your biography" rows="2" cols="20" placeholder="write about you" required></textarea>
+                </div>
+                <br>
+                <div style="display:flex; gap:10px;">
+                    <fieldset>
+                    <label for="rating">How much do you like my project ?</label>
+                    Bad <input type="range" name="rating" min="0" max="5" required>Good
+                </fieldset>
+                </div>
+                <br>
+                <div>
+                    <label for="progress of this form">Have all tags of HTML Form been used ? <progress value="98" max="100" min="0">98%</progress>98% </label>
+                </div>
+                <div>
+                    <label for="meter of this form">Have all attributes of HTML Form tags been used ? <meter value="96" low="90" high="99" optimum="95" max="100" min="0">96%</meter>96%</label>
+                </div>
+                <br>
+                <div>
+                    <input type="reset" value="Refresh Form">
+                    <input type="submit" name="submit" value="Log in" >
+                </div>
+            </form>
+    </body>
+</html>
